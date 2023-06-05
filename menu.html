@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="screen-orientation" content="portrait">
+		<link rel="shortcut icon" href="">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="headercon clearfloat">
+				<div class="headerleft">
+					<a href="index.html"><img src="images/logo.png" alt=""></a>
+				</div>
+				<div class="headernav">
+					<ul class="clearfloat">
+						<li><a href="index.html"><i><img src="images/i1.png" alt=""></i> HOME</a></li>
+						<li class="active"><a href="menu.html"><i style="vertical-align: -15px;"><img src="images/i2.png" alt=""></i> MENU</a></li>
+						<li><a href="empty.html"><i style="vertical-align: -14px;"><img src="images/i3.png" alt=""></i> CART</a></li>
+					</ul>
+				</div>
+				<div class="headeright">
+					<input type="text" placeholder="Search">
+				</div>
+			</div>
+		</div>
+		<div class="nav clearfloat">
+			<div class="navleft">
+				<a href="index.html" title="">
+					<img src="images/logo.png" alt="">
+				</a>
+			</div>
+			<div class="navright" onclick="divShow()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="mobile" id="navs">
+			<div class="mobilebj"></div>
+			<div class="mobilebox">
+				<div class="close clearfloat"><i  onclick="closed()"></i></div>
+				<div class="mobilelist">
+					<ul>
+						<li><a href="index.html"><i><img src="images/i1.png" alt=""></i> HOME</a></li>
+						<li><a href="menu.html"><i><img src="images/i2.png" alt=""></i> MENU</a></li>
+						<li><a href="empty.html"><i><img src="images/i3.png" alt=""></i> CART</a></li>
+					</ul>
+					<div class="mobileseach">
+						<input type="text" placeholder="Search">
+						<button type="button"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="conter">
+			<div class="conav">
+				<div class="conavcon">
+					<ul class="clearfloat">
+						<li><a href="javascript:void(0);">All</a></li>
+						<li><a href="javascript:void(0);">Buble Tea</a></li>
+						<li><a href="javascript:void(0);">Smoothie</a></li>
+						<li><a href="javascript:void(0);">Fruit Tea</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu">
+				<div class="menucon">
+					<ul>
+						<li>
+							<h4>Buble Tea</h4>
+							<div class="mebulist clearfloat">
+								<div class="melist" onclick="meuntc()">
+									<a href="javascript:void(0);" class="clearfloat">
+										<div class="mimg"><img src="images/m1.png" alt=""></div>
+										<div class="mtext">
+											<h5>Peal Buble Tea</h5>
+											<h6>Banana, mango, strawberries, spinach, passionfruit, almonds, maca & coconut water</h6>
+											<h6>$6.5</h6>
+											<div class="mcon clearfloat">
+												<div class="mleft clearfloat">
+													<p>-</p>
+													<input type="number" value="1">
+													<p>+</p>
+												</div>
+												<div class="mright">Add</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="melist" onclick="meuntc()">
+									<a href="javascript:void(0);" class="clearfloat">
+										<div class="mimg"><img src="images/m2.png" alt=""></div>
+										<div class="mtext">
+											<h5>Berry Nutter</h5>
+											<h6>Blueberries, banana, coyo, house made peanut butter, dates, brown rice chocolate protein, maca, cinnamon & almond milk.</h6>
+											<h6>$6.5</h6>
+											<div class="mcon clearfloat">
+												<div class="mleft clearfloat">
+													<p>-</p>
+													<input type="number" value="1">
+													<p>+</p>
+												</div>
+												<div class="mright">Add</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<h4>Smoothie</h4>
+							<div class="mebulist clearfloat">
+								<div class="melist" onclick="meuntc()">
+									<a href="javascript:void(0);" class="clearfloat">
+										<div class="mimg"><img src="images/m3.png" alt=""></div>
+										<div class="mtext">
+											<h5>Penut Smoothie</h5>
+											<h6>Blended acai and banana. Topped with almonds, coconut flakes, strawberries and banana</h6>
+											<h6>$6.5</h6>
+											<div class="mcon clearfloat">
+												<div class="mleft clearfloat">
+													<p>-</p>
+													<input type="number" value="1">
+													<p>+</p>
+												</div>
+												<div class="mright">Add</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="melist" onclick="meuntc()">
+									<a href="javascript:void(0);" class="clearfloat">
+										<div class="mimg"><img src="images/m4.png" alt=""></div>
+										<div class="mtext">
+											<h5>Banana Smoothie</h5>
+											<h6>Banana, mango, strawberries, spinach, passionfruit, almonds, maca & coconut water</h6>
+											<h6>$6.5</h6>
+											<div class="mcon clearfloat">
+												<div class="mleft clearfloat">
+													<p>-</p>
+													<input type="number" value="1">
+													<p>+</p>
+												</div>
+												<div class="mright">Add</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<h4>Fruit Tea</h4>
+							<div class="mebulist clearfloat">
+								<div class="melist" onclick="meuntc()">
+									<a href="javascript:void(0);" class="clearfloat">
+										<div class="mimg"><img src="images/m5.png" alt=""></div>
+										<div class="mtext">
+											<h5>strawberries Tea</h5>
+											<h6>Banana, mango, strawberries, spinach, passionfruit, almonds, maca & coconut water</h6>
+											<h6>$6.5</h6>
+											<div class="mcon clearfloat">
+												<div class="mleft clearfloat">
+													<p>-</p>
+													<input type="number" value="1">
+													<p>+</p>
+												</div>
+												<div class="mright">Add</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="melist" onclick="meuntc()">
+									<a href="javascript:void(0);" class="clearfloat">
+										<div class="mimg"><img src="images/m6.png" alt=""></div>
+										<div class="mtext">
+											<h5>Nats bowl</h5>
+											<h6>Acai blended with banana. Topped with house made peanut butter, almonds, strawberries and granola.</h6>
+											<h6>$6.5</h6>
+											<div class="mcon clearfloat">
+												<div class="mleft clearfloat">
+													<p>-</p>
+													<input type="number" value="1">
+													<p>+</p>
+												</div>
+												<div class="mright">Add</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="addmenu">
+					<div class="addmenucon clearfloat">
+						<a href="cart1.html">Check Out</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="footercon">
+				<h4>Follow Us:</h4>
+				<p><i><img src="images/f.png" alt=""></i> https://www.instagram.com/green.cup/</p>
+			</div>
+		</div>
+		
+		<div class="tc" id="tc">
+			<div class="tcbj" onclick="tclose()"></div>
+			<div class="tcbox">
+				<div class="tcimg"><img src="images/t.png" alt=""></div>
+				<div class="tctext">
+					<h5>Peal Bubble Tea</h5>
+					<h6>Banana, mango, strawberries, spinach, passionfruit, almonds, maca & coconut water</h6>
+					<div class="tcbut clearfloat">
+						<span>$6.5</span>
+						<div class="mleft clearfloat">
+							<p>-</p>
+							<input type="number" value="1">
+							<p>+</p>
+						</div>
+					</div>
+					<div class="but clearfloat" onclick="tclose()">
+						<i><img src="images/x.png" alt=""></i>
+						<p>Add to bag</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/index.js"></script>
+</html>
