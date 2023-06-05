@@ -1,0 +1,151 @@
+@charset "utf-8";
+@import url(base.css);
+/*header*/
+.header{width: 100%;height: 86px;background: #80917d;}
+.headercon{width: 100%;display: flex;justify-content: center;position: relative;}
+.headerleft{float: left;position: absolute;top: 0;left: 0;}
+.headerleft a{display: block;}
+.headerleft a img{display: block;}
+.headernav{float: left;padding-top: 16px;box-sizing: border-box;}
+.headernav ul li{float: left;margin-right: 200px;}
+.headernav ul li:last-child{margin-right: 0;}
+.headernav ul li.active a{background: #656565;}
+.headernav ul li a i{display: inline-block;width: 40px;height: 40px;vertical-align: -11px;margin-right: 4px;}
+.headernav ul li a i img{display: block;width: 100%;}
+.headeright{float: right;position: absolute;top: 24px;right: 20px;}
+.nav{width: 100%;height: 60px;background: #80917d;z-index: 2000;padding: 0px;box-sizing: border-box;display: none;}
+.navleft{float: left;width: 20%;height: 60px;display: flex;align-items: center;}
+.navleft a img{width: 100%;display: block;height: 60px;}
+.navright{float: right;margin-top: 20px;margin-right: 14px;}
+.navright>span{width: 24px;height: 2px;display: block;margin-bottom: 7px;transition:.3s;-moz-transition: .3s;-webkit-transition: .3s;-o-transition: .3s; background: #fff;}
+.navright.active span:nth-child(2){margin-left:6px;-webkit-transition: all 0.3s;transition: all 0.3s;}
+.navright.active span:nth-child(3){margin-left:2px;-webkit-transition: all 0.5s;transition: all 0.5s;}
+.mobile{width: 100%;height: 100%;position: fixed;top: 0;display: none;}
+.mobilebj{width: 100%;height: 100%;position: fixed;top: 0;right: 0;background: rgba(0,0,0,0.5);}
+.mobilebox{width: 60%;height: 100%;position: absolute;top: 0;right: 0;background: #80917d;}
+.mobilebox .close{width: 100%;height: 60px;position: relative;}
+.mobilebox .close i{float: right;width: 20px;height: 20px;background: url(../images/menu-close.svg) no-repeat;background-size: 100% 100%;margin: 20px;}
+.mobilelist>ul>.on>a i{transform: rotate(90deg);}
+.mobilelist{width: 100%;height: 100%;}
+.mobilelist>ul>li{width: 100%;border-bottom: 1px solid #cdffc5;}
+.mobilelist>ul>li:first-child{border-top: 1px solid #cdffc5;}
+.mobilelist>ul>li:last-child{border-bottom: 0;}
+.mobilelist>ul>li>a i{display: inline-block;width: 20px;height: 20px;background: url(../images/jiao.png) center no-repeat; position: absolute;top:7px;left: 10px;}
+.mobileseach{width: 90%;margin: 12px auto;position: relative;}
+.mobileseach button{background: url(../images/i4.png) center no-repeat;width: 38px;height: 38px;background-size: 18px; border: 0;outline: none;display: block;position: absolute;top: 0;right: 0;}
+
+/*banner*/
+.banner{width: 100%;}
+.banner img{display: block;width: 100%;}
+.bannertwo{width: 100%;background: #80917d;padding: 10px 4%;box-sizing: border-box;}
+.bannertwo img{display: block;width: 100%;}
+.bannerthree{width: 100%;background: #f4e6dd;padding: 10px 4%;box-sizing: border-box;}
+.bannerthree img{display: block;width: 100%;}
+.map{width: 100%;background: #80917d;padding: 20px 4% 10px 4%;box-sizing: border-box;}
+.maptitle{display: table;margin: 0 auto 10px;}
+.mapimg{width: 100%;}
+.mapimg img{display: block;width: 100%;}
+
+/*footer*/
+.footer{width: 100%;padding: 40px 4% 60px 4%;box-sizing: border-box;background: #656565;}
+.footercon{width: 100%;}
+.footercon p i{display: inline-block;width: 40px;height: 40px;vertical-align: -14px;margin-right: 10px;}
+.footercon p i img{display: block;}
+.conter{width: 100%;}
+.conav{width: 100%;height: 50px;background: #656565;}
+.conavcon{width: 1200px;margin: 0 auto;}
+.conavcon ul li{float: left;margin-right: 100px;line-height: 50px;}
+.conavcon ul li:last-child{margin-right: 0;}
+
+/*menu*/
+.menu{width: 100%;padding: 50px 0;box-sizing: border-box;background: #f4e6dd;}
+.menucon{width: 1200px;margin: 0 auto;}
+.menucon ul li{width: 100%;margin-bottom: 40px;}
+.menucon ul li:last-child{margin-bottom: 0;}
+.mebulist{width: 100%;}
+.melist{float: left;width: 49%;margin-right: 2%;background: #80917d;border-radius: 20px;box-shadow: 0 38px 54px rgba(0,0,0,0.35); padding: 24px;box-sizing: border-box;}
+.melist:last-child{margin-right: 0;}
+.melist a{display: flex;align-items: center;}
+.mimg{float: left;width: 160px;height: 220px;margin-right: 20px;}
+.mimg img{display: block;width: 100%;height: 100%;object-fit: cover;}
+.mtext{float: left;width: calc(100% - 180px);}
+.mcon{width: 100%;margin-top: 10px;}
+.mleft{float: left;}
+.tc{width: 100%;height: 100%;position: fixed;top: 0;left: 0;z-index: 3000;display: none;}
+.tcbj{width: 100%;height: 100%;position: fixed;top: 0;left: 0;background: rgba(0,0,0,0.4);}
+.tcbox{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);background: #80917d;padding: 40px 80px;box-sizing: border-box;}
+.tcimg{width: 100%;margin-bottom: 20px;}
+.tcimg img{display: block;width: 100%;}
+.tcbut{width: 100%;}
+.tcbut .mleft{float: right;}
+.but{width: 100%;margin-top: 20px;cursor: pointer;}
+.but i{float: left;width: 60px;height: 60px;}
+.but i img{display: block;}
+
+/*cart*/
+.cart{width: 100%;background: #fff;padding: 40px 0;box-sizing: border-box;}
+.cartcon{width: 1200px;margin: 0 auto;}
+.cartup{width: 100%;}
+.cartlist{width: 100%;margin-top: 40px;}
+.cartlist ul li{width: 100%;margin-bottom: 20px;}
+.cartlist ul .melist:last-child{margin-bottom: 0;}
+.cartlist ul li.clast input{width: 32%;margin-right: 2%;float: left;}
+.cartlist ul li.clast a{width: 32%;height: 42px;padding: 0 14px;text-align: center;line-height: 40px;border-radius: 50px; box-sizing: border-box;font-size: 16px;color: #333;background: #009fe3;color: #fff;float: left;}
+.cartexter{width: 100%;}
+.cbut{width: 100%;margin-top: 20px;}
+.cbut img{display: block;width: 100%;margin-top: 20px;}
+.cartbox{width: 100%;padding: 100px 0;box-sizing: border-box;}
+.cartbutton{width: 100%;border-top: 1px solid #000;border-bottom: 1px solid #000;padding: 30px;box-sizing: border-box; display: flex;justify-content: space-between;}
+.cimg{float: left;width: 200px;height: 200px;margin-right: 40px;}
+.cimg img{display: block;width: 100%;height: 100%;object-fit: cover;}
+.ctexted{float: left;width: calc(100% - 240px);display: flex;flex-direction: column;justify-content: space-between;}
+.ctextedup{width: 100%;display: flex;justify-content: space-between;}
+.ctextedup .mleft input{border: 1px solid #656565;box-sizing: border-box;}
+.ctextbuts{width: 100%;}
+.xian{width: 100%;height: 1px;background: #000;display: block;margin-top: 80px;}
+.addmenu{width: 100%;background: #80917d;padding: 15px 4%;box-sizing: border-box;margin-top: 40px;}
+
+@media screen and (max-width: 1450px) {
+	.headernav ul li{margin-right: 140px;}
+}
+@media screen and (max-width: 1370px) {
+	.headernav ul li{margin-right: 80px;}
+}
+@media screen and (max-width: 1210px) {
+	.headernav ul li{margin-right: 40px;}
+	.menucon,.conavcon,.cartcon{width: 100%;padding: 0 4%;box-sizing: border-box;}
+}
+@media screen and (max-width: 1100px) {
+	.headernav ul li{margin-right: 20px;}
+	.melist{float: none;width: 100%;margin-right: 0;margin-bottom: 20px;}
+	.melist:last-child{margin-bottom: 0;}
+}
+@media screen and (max-width: 1024px) {
+	.header{display: none;}
+	.nav{display: block;}
+	.maptitle h4,.footercon h4,.menucon ul li h4,.title,.cartexter h4{font-size: 24px;}
+	.cartexter h4{line-height: 40px;}
+	.addmenucon a{float: none;display: block;margin: 0 auto;}
+}
+@media screen and (max-width: 580px) {
+	.maptitle p{font-size: 14px;line-height: 22px;}
+	.footer{padding: 20px 4%;}
+	.footercon p{font-size: 14px;}
+	.conavcon ul li{margin-right: 20px;}
+	.conavcon ul li a{font-size: 16px;}
+	.menu{padding: 40px 0;}
+	.menucon ul li{margin-bottom: 20px;}
+	.melist a{display: block;}
+	.mimg{float: none;width: 100%;height: auto;margin-bottom: 10px;}
+	.mtext{float: none;width: 100%;}
+	.tcbox{padding: 20px;width: 90%;}
+	.cartlist ul li.clast input{margin-right: 0;margin-bottom: 20px;width: 100%;float: none;}
+	.cartbox{padding: 20px 0;}
+	.cartbutton{display: block;padding: 12px;}
+	.cimg{float: none;width: 100%;margin-right: 0;margin-bottom: 20px;}
+	.ctexted{float: none;width: 100%;}
+	.ctextedup{display: block;}
+	.ctextedup .mleft{float: none;margin: 10px 0;}
+	.ctextbuts a{float: none;display: block;margin-top: 12px;}
+	.cartlist ul li.clast a{float: none;width: 100%;display: block;}
+}
